@@ -10,9 +10,9 @@ class Drop{
     draw(){
         textSize(this.size);
         if(Math.random()>0.1)
-            fill(37,219,173);
+            fill("red");
         else
-            fill(170,250,170);
+            fill("pink");
         text(this.text,this.x,this.y);
     }
     

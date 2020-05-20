@@ -1,5 +1,5 @@
 var drops = []
-var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvexyz";
+var letters = "AaRrNnVvGgUuPpTt";
 // other sample characters : !@#$%^&*()<>?/`~{}[]\|,.
 //  "也 池 驰 馳 弛"
 // 
@@ -23,4 +23,8 @@ function draw()
         drops[i].draw();
         drops[i].update();
     }
+    fill("White");
+    textSize(20);
+    textFont("CASTELLAR")
+    text("MY NAME, ONLY MY NAME",5,300);
 }
